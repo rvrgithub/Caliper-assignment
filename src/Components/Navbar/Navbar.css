@@ -1,0 +1,14 @@
+.container{
+width:100%;
+height:60px;
+background-color: rgb(152, 151, 151);
+display: flex;
+position: fixed;
+flex-direction: row;
+text-decoration: transparent;
+justify-content: space-around;
+text-align: center;
+padding: 25px 0;
+font-size: 25px;
+}
+
