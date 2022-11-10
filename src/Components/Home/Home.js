@@ -6,8 +6,7 @@ export const Home = () => {
   return (
     <div>
       <Navbar/>
-      <img src="https://nowafarms.in/assets/img/banner/banner2.jpg" alt="error_image" />
-
+      <img src="https://www.ppt-backgrounds.net/uploads/animated-grass-if-you-need-grass-download-slides.jpeg" alt="error_image" />
       <About/>
       
     </div>
