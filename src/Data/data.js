@@ -44,3 +44,69 @@ export const details = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Schultz_Horticultural_Perlite.jpg/1920px-Schultz_Horticultural_Perlite.jpg",
   },
 ];
+
+export const projects =[
+  {
+  image:"https://nowafarms.in/assets/img/gallery/g3.jpg"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/gallery/222.jpg"
+    },
+    {
+      image:"https://nowafarms.in/assets/img/gallery/333.jpg"
+      },
+      {
+        image:"https://nowafarms.in/assets/img/gallery/gg1.jpg"
+        },
+        {
+          image:"https://nowafarms.in/assets/img/gallery/555.jpg"
+          },
+          {
+            image:"https://nowafarms.in/assets/img/gallery/41.jpg"
+            },
+            {
+              image:"https://nowafarms.in/assets/img/gallery/42.jpg"
+              },
+              {
+                image:"https://nowafarms.in/assets/img/gallery/45.jpg"
+                },
+                {
+                  image:"https://nowafarms.in/assets/img/gallery/41.jpg"
+                  },
+                  {
+                    image:"https://nowafarms.in/assets/img/gallery/44.jpg "
+                    },
+]
+export const farmers=[
+  {
+    image:"https://nowafarms.in/assets/img/farmers/1.jpg",
+    name:"Akhon Bru",
+    works:"FARMER OF POTATO"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/farmers/2.jpg",
+    name:"Denis Khua",
+    works:"FARMER OF CHERRY"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/farmers/3.jpg",
+    name:"",
+    works:"FARMER OF CHERRY"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/farmers/4.jpg",
+    name:"Brian Paul",
+    works:"FARMER OF TOMATOES"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/farmers/5.jpg",
+    name:"Akhon Bru",
+    works:"FARMER OF POTATO"
+  },
+  {
+    image:"https://nowafarms.in/assets/img/farmers/6.jpg",
+    name:"Denis Khua",
+    works:"FARMER OF CHERRY"
+  },
+  
+]

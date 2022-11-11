@@ -5,13 +5,11 @@ import {
 } from "./actionType";
 import axios from "axios";
 
-export const getDataAPI = () => (dispatch) => {
-    
-    dispatch({ type: GET_DATA_LOADING });
-  return  axios.get("http://localhost:8080/home_kits")
-        .then(res => {console.log("res.data",res.data)
-            dispatch({ type: GET_DATA_SUCCESS, payload: res.data })
+ export const getDataAPI = () => (dispatch) => {
+    dispatch({ type:GET_DATA_LOADING });
+   return axios.get("http://localhost:8080/nutrients")
+        .then((res) => {console.log("res.data",res.data)
+            dispatch({ type:GET_DATA_SUCCESS, payload:res.data })
 })
-        .catch(err => dispatch({ type: GET_DATA_FAILURE, payload: err }))
+        .catch(err => dispatch({ type:GET_DATA_FAILURE, payload:err }))
 }
-// getDataAPI();

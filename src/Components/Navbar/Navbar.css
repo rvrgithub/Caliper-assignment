@@ -1,118 +1,139 @@
-.container{
-width:100%;
-height:60px;
-background-color: rgb(34, 109, 48);
-display: flex;
-position: fixed;
-flex-direction: row;
-text-decoration: transparent;
-justify-content: space-between;
-text-align: center;
-padding: 20px 0 0 0;
-margin-top: -70px;
-font-size: 23px;
-font-family:Heebo sans-serif;
-z-index:1000;
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-.content{
-    width: 40%;
-    margin-left: 300px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: transparent;
-    font-family:Heebo sans-serif;
-    margin-top: 10x;
-    /* border: 1px solid red; */
+.container {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(34, 109, 48);
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  text-decoration: transparent;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 0 0 0;
+  /* margin-top: -70px; */
+
+  font-family: Heebo sans-serif;
+  z-index: 1000;
 }
-.tag{
-    font-size: 30px;
-    color: white;
-    text-decoration: transparent;
-    margin-left: 35px;
-    font-family:Heebo sans-serif
+.content {
+  width: 40%;
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: transparent;
+  font-family: Heebo sans-serif;
+  margin-top: 10x;
+  font-size: 18px;
+  /* border: 1px solid red; */
 }
-.contact{
-border: 1.5px solid rgb(203, 190, 190);
-border-radius: 20px;
-width: 100px;
-height: 30px;
-padding:10px 20px;
-margin-right: 70px;
-text-decoration: transparent;
-background-color: white;
-cursor: pointer;
-color: green ;
-font-family:Heebo sans-serif
+.tag {
+  font-size: 30px;
+  color: white;
+  text-decoration: transparent;
+  margin-left: 35px;
+  font-family: Heebo sans-serif;
 }
-.contact:hover{
-    color:white;
-    background-color: green;
+.contact {
+  border: 1.5px solid rgb(203, 190, 190);
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  padding: 10px 20px;
+  margin-right: 70px;
+  text-decoration: transparent;
+  background-color: white;
+  cursor: pointer;
+  color: green;
+  font-family: Heebo sans-serif;
 }
-.style{
-    text-decoration: transparent;
-    color: white;
+.contact:hover {
+  color: white;
+  background-color: green;
+}
+.style {
+  text-decoration: transparent;
+  color: white;
+  margin-top: 4px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .Linktab {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 23px 5px;
-    cursor:pointer
-  }
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 23px 5px;
+  cursor: pointer;
+}
 
-  .Linktabs {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    padding-top: 6px;
-    cursor:pointer
-  }
-  .Linktabs button {
-    margin-top:-30px;
-    margin-bottom: 0;
-    font-size: 23px;
-    font-weight: 600;
-    background-color: transparent;
-    cursor: pointer;
-    font-weight: 300;
-    font-family:Heebo sans-serif
-  }
+.Linktabs {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 6px;
+  cursor: pointer;
+}
+.Linktabs button {
+  margin-top: -30px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 300;
+  font-family: Heebo sans-serif;
+}
 
-  .dropDownMainDiv {
-    position: relative;
-    display: inline-block;
-  }
-  .dropDownButton {
+.dropDownMainDiv {
+  position: relative;
+  display: inline-block;
+}
+.dropDownButton {
+  color: #ffffff;
+  padding: 16px;
+  font-size: 13px;
+  border: none;
+}
+.dropDownContent {
+  color: #333333;
+  display: none;
+  background-color: rgb(249, 247, 247);
+  padding: 10px 0px;
+  position: absolute;
+  z-index: 1;
+  font-size: 15px;
+  margin-top: 27px;
+  width: 260px;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+.dropDownMainDiv:hover .dropDownContent {
+  display: block;
+}
+.DropDownLink {
+  text-align: center;
+  padding: 10px 15px;
+  letter-spacing: 1.3px;
+  text-decoration: transparent;
+}
+.DropDownLink:hover {
+  background-color: green;
+}
 
-    /* background-color: #04AA6D; */
-    color: #ffffff;
-    padding: 16px;
-    font-size: 13px;
-    border: none;
-  }
-  .dropDownContent {
-    color: #333333;
-    display: none;
-    background-color: rgb(249, 247, 247);
-    padding: 10px 0px;
-    position: absolute;
-    z-index: 1;
-    font-size: 15px;
-    margin-top: -17px;
-    width: 260px;
-    margin-left: 12px;
-  }
-  .dropDownMainDiv:hover .dropDownContent {
-    display: block;
-  }
-  .DropDownLink {
-    text-align: center;
-    padding: 10px 15px;
-    letter-spacing: 1.3px;
-    text-decoration: transparent;
-  }
-  .DropDownLink:hover {
-    background-color: #bdbdbd;
-  }
+#length {
+  width: 120px;
+  font-size: 12px;
+  /* padding: 10px; */
+  margin-left: -10px;
+}
 
+.link {
+  text-decoration: none;
+  color: green;
+}

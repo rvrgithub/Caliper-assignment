@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { About } from './Components/About/About';
 import { Contacts } from './Components/Contacts/Contacts';
+import { Farmers } from './Components/Farmers/Farmers';
 import { Home } from './Components/Home/Home';
 import { Navbar } from './Components/Navbar/Navbar';
 import { HomeKits } from './Components/Products/HomeKits';
@@ -19,6 +20,8 @@ function App() {
         <Route path='/product/nutrients' element={<Nutrients/>}></Route>
         <Route path='/product/seeds' element={<Seeds/>}></Route>
         <Route path='/contact' element={<Contacts/>}></Route>
+        <Route path='/farmers' element={<Farmers/>}></Route>
+
     </Routes>
     </div>
   );

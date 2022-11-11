@@ -1,0 +1,69 @@
+.product_container{
+    margin-top: 140px;
+}
+.link{
+    text-decoration: transparent;
+    color: green;
+}
+button:hover,.link:hover{
+    color:white;
+}
+.right button:hover{
+color:white;
+    background-color: green;
+}
+.flex_div{
+    display: flex;
+}
+/*......... home_kits  ...........*/
+
+.product{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.product div{
+    width: 50%;
+/* border: 1px solid red; */
+
+}
+.product img{
+width:50%;
+height: 70%;
+padding: 10px;
+margin-top: 40px;
+border-radius: 40px;
+cursor: pointer;
+transition: transform .2s;
+};
+
+.product p{
+    /* margin:12%; */
+font-size: 20px;
+padding: 20px;
+margin-bottom: 0;
+font-family:Heebo sans-serif;
+/* border: 1px solid red; */
+}
+.product div img:hover{
+    transform: scale(1.1);
+}
+#title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+}
